@@ -8,9 +8,9 @@ Battery Energy Storage Systems (BESS) are critical for modern energy infrastruct
 
 ## Repository Structure
 
-- **Code:** Python implementations using the PyBaMM framework.
-- **Data:** Large datasets required for simulations. *(Too large to commit, see links below)*
-- **Literature:** References and related works for adversarial attacks and battery modeling. *(Too large to commit, see links below)*
+- **Code**: Python implementations using the PyBaMM framework.
+- **Data**: Large datasets required for simulations. *(Too large to commit, see links below)*
+- **Literature**: References and related works for adversarial attacks and battery modeling. *(Too large to commit, see links below)*
 
 ## Links to External Files
 
@@ -22,26 +22,15 @@ Due to file size constraints, some resources are hosted externally. You can acce
 
 ## Key Components
 
-1. **DFN Model Implementation:** 
-   - The **Doyle-Fuller-Newman (DFN)** model simulates lithium-ion battery behavior under adversarial attacks. 
-   - We manipulate parameters such as current, temperature, and SEI (Solid Electrolyte Interphase) resistance to observe how these attacks impact State of Charge (SoC), State of Health (SoH), and terminal voltage.
+1. **DFN Model Implementation**
+   - The **Doyle-Fuller-Newman (DFN)** model simulates lithium-ion battery behavior under adversarial attacks.
+   - Parameters such as current, temperature, and SEI (Solid Electrolyte Interphase) resistance are manipulated to observe impacts on State of Charge (SoC), State of Health (SoH), and terminal voltage.
 
-2. **Adversarial Attack Simulation:**
+2. **Adversarial Attack Simulation**
    - Both **single-window** and **multi-window** attack scenarios are considered.
    - Perturbations are applied to current, temperature, and SEI resistance with varying noise levels and spike probabilities.
 
-3. **Sensitivity Analysis:**
+3. **Sensitivity Analysis**
    - A detailed sensitivity analysis explores how perturbations affect battery performance, highlighting vulnerabilities and potential attack vectors.
 
-## Dependencies
-
-This project uses the following key libraries:
-
-- [PyBaMM](https://www.pybamm.org/)
-- Python 3.8 or above
-- NumPy, SciPy, Matplotlib
-
-To install the required libraries, you can run:
-
-```bash
-pip install -r requirements.txt
+For the latest updates, please check the **sensitivity analysis** and **adversarial attack files**.
