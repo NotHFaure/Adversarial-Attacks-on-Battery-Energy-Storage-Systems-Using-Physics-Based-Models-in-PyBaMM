@@ -14,11 +14,7 @@ Battery Energy Storage Systems (BESS) are critical for modern energy infrastruct
 
 ## Links to External Files
 
-Due to file size constraints, some resources are hosted externally. You can access them via the following links:
-
-- [**Data**](https://1drv.ms/f/s!AqGwCfpEgvD9kuIDu4eBeZ7ZpdvlyA?e=aSjjHc) — Datasets for battery simulations.
-- [**Literature**](https://1drv.ms/f/s!AqGwCfpEgvD9kuBToGrSkxt-mc3isw?e=eXxutK) — Relevant papers and literature on battery modeling and adversarial attacks.
-- [**Implementations**](https://1drv.ms/f/s!AqGwCfpEgvD9hOQ-z-_Towqcs1zwcw?e=LsuxlR) — Source code for implementing the adversarial attacks.
+Due to file size constraints, some resources (datasets, literature, implementation code) are hosted externally rather than committed to this repository. Data is available on request.
 
 ## Key Components
 
