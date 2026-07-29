@@ -1,0 +1,10 @@
+# Normalize text line endings on checkout; keep binary formats untouched.
+* text=auto
+
+*.png binary
+*.PNG binary
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
+*.ipynb text
